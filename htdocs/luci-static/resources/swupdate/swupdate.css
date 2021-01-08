@@ -1,0 +1,225 @@
+﻿/*
+ * SPDX-License-Identifier: MIT
+ * SPDX-FileCopyrightText: 2021 Tano Systems LLC. All Rights Reserved.
+ * 
+ * Authors: Anton Kikin <a.kikin@tano-systems.com>
+ */
+
+/* ******************************************** */
+
+#swupdate-log {
+	width: 100%;
+	height: 200px;/*16em;*/
+	overflow-y: auto;
+	line-height: 1.2;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #f2f2f2;
+	resize: vertical;
+}
+
+#swupdate-log .swupdate-log-line {
+	padding: 0 4px;
+	width: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+
+#swupdate-log .swupdate-log-msg {
+	display: inline-block;
+	padding: 1px 8px;
+	margin-right: 4px;
+	font-size: 90%;
+	line-height: 1.0;
+}
+
+#swupdate-log .swupdate-log-info {
+	color: #666;
+}
+
+#swupdate-log .swupdate-log-debug {
+	color: #666;
+}
+
+#swupdate-log .swupdate-log-cmd-output {
+	color: #0099e6;
+	display: flex;
+}
+
+#swupdate-log .swupdate-log-cmd-output:before {
+	content: '> ';
+	display: block;
+}
+
+#swupdate-log .swupdate-log-tag {
+	font-weight: normal;
+	color: #888888;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	padding: 1px 6px;
+	border-radius: 4px;
+	font-size: 90%;
+	line-height: 1.0;
+	display: inline-block;
+	margin-bottom: 1px;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+	     -moz-user-select: none; /* Old versions of Firefox */
+	      -ms-user-select: none; /* Internet Explorer/Edge */
+	          user-select: none; /* Non-prefixed version, currently
+	                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+#swupdate-log .swupdate-log-success,
+#swupdate-log .swupdate-log-notice,
+#swupdate-log .swupdate-log-warning,
+#swupdate-log .swupdate-log-failure {
+	font-weight: normal;
+	font-size: 90%;
+	display: inline-block;
+	padding: 2px 6px;
+	margin-left: 2px;
+	border-radius: 4px;
+	margin-bottom: 1px;
+	line-height: 1.0;
+}
+
+#swupdate-log .swupdate-log-success {
+	color: white;
+/*	background-color: #28b228;*/
+	background-color: #229150;
+}
+
+#swupdate-log .swupdate-log-failure {
+	color: white;
+	background-color: #d2323e;
+}
+
+#swupdate-log .swupdate-log-warning {
+	color: #fff700;
+	background-color: #998200;
+}
+
+#swupdate-log .swupdate-log-notice {
+	color: white;
+	background-color: #2888b2;
+}
+
+/* ******************************************** */
+
+.cbi-value-description .swupdate-file-info {
+	margin-top: 12px;
+}
+
+.swupdate-file-info {
+	margin-bottom: 8px;
+}
+
+.swupdate-file-info ul,
+.swupdate-progress ul {
+	margin-left: 0;
+	list-style-type: none;
+	line-height: 1.2;
+}
+
+div:not(.cbi-value-description) > .swupdate-file-info > ul > li > span {
+	color: #888;
+}
+
+.swupdate-info-warning {
+	color: #d12e39 !important;
+	font-weight: bold;
+}
+
+.swupdate-info-success {
+}
+
+.swupdate-progress ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.swupdate-progress-title {
+	font-weight: bold;
+	margin-bottom: 6px;
+	text-align: left;
+}
+
+.swupdate-progress-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.swupdate-progress {
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding: 8px 12px 8px 12px;
+	background-color: #f2f2f2;
+	margin-left: 4px;
+	margin-right: 4px;
+	flex-grow: 1;
+	min-width: 240px;
+	width: min-content;
+}
+
+.swupdate-progress .cbi-section {
+	margin-top: 10px;
+}
+
+.swupdate-progress-info {
+	line-height: 1.2;
+}
+
+.swupdate-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.swupdate-status {
+	font-size: 110%;
+	font-weight: normal;
+	font-variant: small-caps;
+	background-color: #f2f2f2;
+	text-align: center;
+	line-height: 1.0;
+	padding: 6px 16px;
+	border-radius: 20px;
+	box-shadow: 0 1px 3px 0 grey;
+}
+
+.swupdate-status-success {
+	/* #b3ffc4; */
+	background-color: #8fffa7;
+	color: #186739;
+}
+
+.swupdate-status-error {
+	background-color: #d2323e;
+	color: #ffffff;
+}
+
+.swupdate-status-warning {
+	background-color: #f9e3b3;
+	color: #76540a;
+}
+
+#swupdate-progress-upload > div {
+	background-color: #6ccfff;
+}
+
+#swupdate-progress-upgrade > div {
+	background-color: #8fffa7;
+}

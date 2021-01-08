@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: luci-app-tn-swupdate\n"
+"PO-Revision-Date: 2021-03-14 03:06+0300\n"
+"Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
+"Language-Team: none\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: 2021-01-21 05:03+0300\n"
+"X-Generator: Poedit 2.2\n"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:450
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:455
+msgid "%1024.2mB"
+msgstr "%1024.2mБ"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:756
+msgid "%1024.2mB of %1024.2mB"
+msgstr "%1024.2mБ из %1024.2mБ"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:759
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:762
+msgid "%1024.2mB/s"
+msgstr "%1024.2mБ/с"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:451
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:456
+msgid "%d bytes"
+msgstr "%d байт"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1033
+msgid "%d of %d"
+msgstr "%d из %d"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1106
+msgid "Attention"
+msgstr "Внимание"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:421
+msgid "Average speed"
+msgstr "Средняя скорость"
+
+#: htdocs/luci-static/resources/preload/swupdate.js:38
+msgid ""
+"Booting the system with the new firmware failed. The system has been rolled "
+"back to the previous firmware and is now booted with the previous firmware."
+msgstr ""
+"Загрузка системы с новой прошивкой завершилась неудачно. Был произведён "
+"возврат на предыдущую прошивку и сейчас система загружена с предыдущей "
+"прошивкой."
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:395
+msgid "Browse..."
+msgstr "Обзор..."
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1077
+msgid ""
+"Checking this option will completely erase the user data (including the "
+"device configuration) during firmware upgrade"
+msgstr ""
+"Включение этой опции приведет к полной очистке пользовательских данных "
+"(включая конфигурацию устройства) при обновлении прошивки"
+
+#: htdocs/luci-static/resources/preload/swupdate.js:54
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:636
+msgid "Close"
+msgstr "Закрыть"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:420
+msgid "Current speed"
+msgstr "Текущая скорость"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:600
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1082
+msgid "Dry run mode"
+msgstr "«Холостой» режим"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:596
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1076
+msgid "Erase user data"
+msgstr "Очистка пользовательских данных"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:376
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:593
+msgid "File"
+msgstr "Файл"
+
+#: htdocs/luci-static/resources/preload/swupdate.js:45
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:653
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1066
+#: root/usr/share/luci/menu.d/luci-app-tn-swupdate.json:3
+msgid "Firmware Upgrade"
+msgstr "Обновление прошивки"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:623
+msgid "Firmware Upgrade Log"
+msgstr "Журнал обновления прошивки"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:616
+msgid "Firmware Upgrade Progress"
+msgstr "Прогресс обновления прошивки"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1089
+msgid "Firmware file"
+msgstr "Файл прошивки"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:595
+msgid "Firmware version"
+msgstr "Версия прошивки"
+
+#: root/usr/share/rpcd/acl.d/luci-app-tn-swupdate.json:3
+msgid "Grant access to firmware upgrade"
+msgstr "Предоставить доступ к обновлению прошивки"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1067
+msgid "Here you can perform firmware upgrade on this device."
+msgstr "Здесь вы можете выполнить обновление прошивки на этого устройства."
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1083
+msgid ""
+"If this option is enabled, the actual flashing will not be performed on the "
+"device. If this option is checked, user data is also not erased when the "
+"option \"Erase user data\" is checked."
+msgstr ""
+"Если данный режим включен, фактическая прошивка устройства не будет "
+"производиться. Также, если эта опция включена, то при выборе опции «Очистка "
+"пользовательских данных» данные не будут очищены."
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:580
+msgid "Information"
+msgstr "Информация"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:821
+msgid "Installation failure"
+msgstr "Сбой при установке"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:790
+msgid "Installation in progress, please wait..."
+msgstr "Установка в процессе, пожалуйста подождите..."
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:798
+msgid "Installation timed out"
+msgstr "Таймаут завершения установки"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:426
+msgid "Installing / Flashing"
+msgstr "Установка / прошивка"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:598
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:602
+msgid "No"
+msgstr "Нет"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:696
+msgid "Not enough permissions"
+msgstr "Недостаточно разрешений"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1112
+msgid ""
+"Note that firmware upgrading can take a long time, up to 5–15 minutes "
+"(depending on the connection speed). So please be patient during this "
+"operation."
+msgstr ""
+"Обратите внимание, что обновление прошивки может занять длительное время, "
+"вплоть до 5–15 минут (в зависимости от скорости подключения). Поэтому, "
+"пожалуйста, будьте терпеливы во время этой операции."
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1108
+msgid ""
+"Once the firmware upgrade procedure has been started, please do NOT POWER "
+"OFF the device until the firmware upgrade is fully completed."
+msgstr ""
+"После начала процедуры обновления прошивки НЕ ВЫКЛЮЧАЙТЕ устройство, пока "
+"обновление прошивки не будет полностью завершено."
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:585
+msgid "Ready for upgrade"
+msgstr "Готово к обновлению прошивки"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:873
+msgid "Rebooting, please wait..."
+msgstr "Перезагрузка устройства, пожалуйста подождите..."
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:377
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:594
+msgid "Size"
+msgstr "Размер"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:434
+msgid "Step"
+msgstr "Шаг"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:864
+msgid "Successfully completed"
+msgstr "Успешно завершено"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1072
+msgid "Upgrade Configuration and Actions"
+msgstr "Конфигурация и действия обновления прошивки"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1092
+msgid "Upgrade firmware"
+msgstr "Обновление прошивки"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:521
+msgid "Upgrade in progress, please wait..."
+msgstr "Обновление в процессе, пожалуйста подождите..."
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:406
+msgctxt "Button Title"
+msgid "Upgrade..."
+msgstr "Обновить..."
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:650
+msgid "Upload and upgrade firmware"
+msgstr "Загрузить и обновить прошивку"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:419
+msgid "Uploaded"
+msgstr "Загружено"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:411
+msgid "Uploading"
+msgstr "Загрузка"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:780
+msgid "Uploading failure"
+msgstr "Сбой при загрузке"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:598
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:602
+msgid "Yes"
+msgstr "Да"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:454
+msgid "not selected"
+msgstr "не выбран"
+
+#~ msgid "Rebooting failure"
+#~ msgstr "Сбой при перезагрузке"
+
+#~ msgid ""
+#~ "Note that firmware upgrading can take a long time, up to 5–10 minutes. So "
+#~ "please be patient during this operation."
+#~ msgstr ""
+#~ "Обратите внимание, что обновление прошивки может занять длительное время, "
+#~ "вплоть до 5–10 минут. Поэтому, пожалуйста, будьте терпеливы во время этой "
+#~ "операции."
+
+#~ msgid ""
+#~ "The system is successfully booted with the new firmware. Firmware has "
+#~ "been successfully upgraded."
+#~ msgstr ""
+#~ "Система успешно запущена с новой прошивкой. Прошивка успешно обновлена."

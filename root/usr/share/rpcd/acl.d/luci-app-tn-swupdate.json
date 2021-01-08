@@ -1,0 +1,20 @@
+{
+	"luci-app-tn-swupdate": {
+		"description": "Grant access to firmware upgrade",
+		"read": {
+			"uci": [ "swupdate" ],
+			"file": {
+				"/tmp/swu_reboot_state": [ "read" ]
+			},
+			"ubus": {
+				"swupdate": [ ":subscribe" ],
+				"session": [ "access" ],
+				"file": [ "read" ]
+			}
+		},
+		"write": {
+			"cgi-swupdate": [ "update" ],
+			"uci": [ "swupdate" ]
+		}
+	}
+}

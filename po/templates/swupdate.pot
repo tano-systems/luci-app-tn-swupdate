@@ -1,0 +1,216 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:450
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:455
+msgid "%1024.2mB"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:756
+msgid "%1024.2mB of %1024.2mB"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:759
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:762
+msgid "%1024.2mB/s"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:451
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:456
+msgid "%d bytes"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1033
+msgid "%d of %d"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1106
+msgid "Attention"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:421
+msgid "Average speed"
+msgstr ""
+
+#: htdocs/luci-static/resources/preload/swupdate.js:38
+msgid ""
+"Booting the system with the new firmware failed. The system has been rolled "
+"back to the previous firmware and is now booted with the previous firmware."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:395
+msgid "Browse..."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1077
+msgid ""
+"Checking this option will completely erase the user data (including the "
+"device configuration) during firmware upgrade"
+msgstr ""
+
+#: htdocs/luci-static/resources/preload/swupdate.js:54
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:636
+msgid "Close"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:420
+msgid "Current speed"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:600
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1082
+msgid "Dry run mode"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:596
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1076
+msgid "Erase user data"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:376
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:593
+msgid "File"
+msgstr ""
+
+#: htdocs/luci-static/resources/preload/swupdate.js:45
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:653
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1066
+#: root/usr/share/luci/menu.d/luci-app-tn-swupdate.json:3
+msgid "Firmware Upgrade"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:623
+msgid "Firmware Upgrade Log"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:616
+msgid "Firmware Upgrade Progress"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1089
+msgid "Firmware file"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:595
+msgid "Firmware version"
+msgstr ""
+
+#: root/usr/share/rpcd/acl.d/luci-app-tn-swupdate.json:3
+msgid "Grant access to firmware upgrade"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1067
+msgid "Here you can perform firmware upgrade on this device."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1083
+msgid ""
+"If this option is enabled, the actual flashing will not be performed on the "
+"device. If this option is checked, user data is also not erased when the "
+"option \"Erase user data\" is checked."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:580
+msgid "Information"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:821
+msgid "Installation failure"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:790
+msgid "Installation in progress, please wait..."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:798
+msgid "Installation timed out"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:426
+msgid "Installing / Flashing"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:598
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:602
+msgid "No"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:696
+msgid "Not enough permissions"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1112
+msgid ""
+"Note that firmware upgrading can take a long time, up to 5–15 minutes "
+"(depending on the connection speed). So please be patient during this "
+"operation."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1108
+msgid ""
+"Once the firmware upgrade procedure has been started, please do NOT POWER "
+"OFF the device until the firmware upgrade is fully completed."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:585
+msgid "Ready for upgrade"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:873
+msgid "Rebooting, please wait..."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:377
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:594
+msgid "Size"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:434
+msgid "Step"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:864
+msgid "Successfully completed"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1072
+msgid "Upgrade Configuration and Actions"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:1092
+msgid "Upgrade firmware"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:521
+msgid "Upgrade in progress, please wait..."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:406
+msgctxt "Button Title"
+msgid "Upgrade..."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:650
+msgid "Upload and upgrade firmware"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:419
+msgid "Uploaded"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:411
+msgid "Uploading"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:780
+msgid "Uploading failure"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:598
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:602
+msgid "Yes"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/swupdate/swupdate.js:454
+msgid "not selected"
+msgstr ""

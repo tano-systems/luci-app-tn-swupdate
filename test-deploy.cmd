@@ -7,9 +7,10 @@ set LUCI_ROOT_PATH=/
 set HOST=%1
 set PASSWORD=%2
 set EXTRA_OPTIONS=
+rem -batch
 
 if NOT [%PASSWORD%] == [] (
-	set EXTRA_OPTIONS=-pw "%PASSWORD%"
+	set EXTRA_OPTIONS=%EXTRA_OPTIONS% -pw "%PASSWORD%"
 )
 
 if [%HOST%] == [] goto host_empty

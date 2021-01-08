@@ -1,0 +1,13 @@
+{
+	"admin/system/swupdate": {
+		"title": "Firmware Upgrade",
+		"order": 75,
+		"action": {
+			"type": "view",
+			"path": "swupdate/swupdate"
+		},
+		"depends": {
+			"acl": [ "luci-app-tn-swupdate" ]
+		}
+	}
+}
